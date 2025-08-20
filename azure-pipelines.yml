@@ -8,7 +8,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Towards-Azure-Devops'
+    azureSubscription: 'Pay-As-You-Go'
     appType: 'webAppLinux'
-    appName: 'First-service'
+    appName: 'Demo-Service'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
